@@ -5,7 +5,7 @@ import allure
 
 class TestCreateOrder:
 
-    @allure.story("Тест на создание заказа с различными данными")
+    @allure.title("Тест на создание заказа с различными данными")
     @allure.description("Проверка создания заказа с различными наборами данных")
     @pytest.mark.parametrize('order_data', [
         ORDER_DATA_1,
